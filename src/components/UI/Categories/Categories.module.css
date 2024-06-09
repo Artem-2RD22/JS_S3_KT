@@ -1,0 +1,116 @@
+.categories {
+    margin: 40px 0;
+    padding: 0 40px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 32px;
+  }
+  
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #282828;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+  
+  .line {
+    width: auto;
+    height: 0px;
+    border: 1px solid #dddddd;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  
+  .navigation {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 142px;
+    height: 36px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .allCategories {
+    width: 110px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126%;
+    text-align: center;
+    color: #8b8b8b;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+  }
+
+  .allCategories:hover {
+    color: #282828;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 316px;
+    height: 392px;
+    text-decoration: none;
+  }
+  
+  .image {
+    width: 316px;
+    height: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .categoryTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #282828;
+    text-align: center;
+    margin-top: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

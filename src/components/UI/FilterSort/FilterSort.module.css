@@ -1,0 +1,83 @@
+.filterSort {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filterItem {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.filterItem label {
+    font-weight: 600;
+    font-size: 20px;
+    color: #282828;
+}
+
+.filterItem input[type="text"] {
+    font-family: 'Montserrat', sans-serif;
+    width: 112px;
+    height: 36px;
+    padding: 8px;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+}
+
+.filterItem input[type="checkbox"] {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    appearance: none;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterItem input[type="checkbox"]:checked {
+    background-color: #339933;
+    border: 1px solid #339933;
+}
+
+.filterItem input[type="checkbox"]:checked::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxOCAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE3IDFMNiAxMkwxIDciIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sortSelect {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sortSelect option{
+    padding: 2px;
+}
+
+.sortSelect select {
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 36px;
+    padding: 8px;
+    gap: 4px;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    background: white;
+}
+
+.sortSelect::after {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+}

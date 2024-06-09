@@ -1,0 +1,214 @@
+.products {
+    margin: 40px 0;
+    padding: 0 40px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 32px;
+  }
+  
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #282828;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+  
+  .line {
+    width: auto;
+    height: 0px;
+    border: 1px solid #dddddd;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  
+  .navigation {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 142px;
+    height: 36px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .allSales {
+    width: 110px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126%;
+    text-align: center;
+    color: #8b8b8b;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+  }
+  
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  
+  .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 422px;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .img {
+    width: 100%;
+    height: 284px;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+  }
+  
+  .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area while maintaining aspect ratio */
+  }
+  
+  .sale {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 4px 8px;
+    background: #339933;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
+  
+  .txt {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 32px;
+    gap: 16px;
+  }
+  
+  .productTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #282828;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .price {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #282828;
+  }
+  
+  .originalPrice {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #8b8b8b;
+  }
+  
+  /* Initial state of the "Add to cart" button, hidden */
+  .btnAddToCart {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 284px;
+    height: 58px;
+    left: 15px;
+    top: 211px;
+    background: #339933;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btnAddToCart.inCart {
+    display: flex;
+    background: white;
+    color: black;
+  }
+  
+  .item:hover .btnAddToCart:not(.inCart) {
+    display: flex;
+  }
+  
+  .btnAddToCart:hover {
+    background: black;
+  }
+
+  .btnAddToCart.inCart:hover {
+    display: flex;
+    background: white;
+    color: 8B8B8B;
+  }
+  
+  .addedToCart {
+    display: flex;
+    background: white;
+    color: #282828;
+    border: 1px solid #282828;
+  }
+  
+  .itemLink {
+    display: block;
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Ensure the text color is inherited */
+  }

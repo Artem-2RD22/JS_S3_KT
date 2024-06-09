@@ -1,0 +1,82 @@
+.discount {
+    position: relative;
+    padding: 32px;
+    padding-bottom: 0 ;
+    background: linear-gradient(261.47deg, #0b710b 32.63%, #339933 98.96%);
+    border-radius: 12px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 40px;
+  }
+  
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 24px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .image {
+    width: 748px;
+    height: 360px;
+    background: url('../../Images/Discount.png') no-repeat center center/cover;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .input {
+    width: 516px;
+    padding: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  }
+  
+  .button {
+    width: 516px;
+    padding: 16px;
+    background: #ffffff;
+    color: #282828;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background-color: #282828;
+    color: #ffffff;
+  }
+
+  .submitted {
+    background-color: lightgrey;
+    color: #339933;
+  }
+
+  .submitted:hover{
+    background-color: lightgrey;
+    color: #339933;
+    cursor: default;
+  }
+  

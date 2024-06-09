@@ -1,0 +1,125 @@
+.notFoundPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding: 0px;
+    gap: 32px;
+    width: 100%;
+    padding: 100px 0;
+  
+  }
+  
+  .errorSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 690.8px;
+    height: 530px;
+  }
+  
+  .errorNumber {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 690.8px;
+    height: 270px;
+  }
+  
+  .number {
+    width: 179.4px;
+    height: 245.88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 220px;
+    color: #339933;
+  }
+  
+  .image {
+    width: 300px;
+    height: 270px;
+    background: url('../../../components/Images/404.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .textSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 664px;
+    height: 228px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 664px;
+    height: 138px;
+  }
+  
+  .text h1 {
+    width: 664px;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #282828;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text p {
+    width: 664px;
+    height: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #8B8B8B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 56px;
+    gap: 10px;
+    width: 209px;
+    height: 58px;
+    background: #339933;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  .button span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
