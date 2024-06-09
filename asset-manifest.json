@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "//artem-2rd22.github.io/JS_S3_KT/static/css/main.199edb1e.css",
+    "main.js": "//artem-2rd22.github.io/JS_S3_KT/static/js/main.1abf6a74.js",
+    "static/js/453.bba8395a.chunk.js": "//artem-2rd22.github.io/JS_S3_KT/static/js/453.bba8395a.chunk.js",
+    "static/media/banner-image.jpg": "//artem-2rd22.github.io/JS_S3_KT/static/media/banner-image.c3f3352d75aff8d064ff.jpg",
+    "static/media/404.png": "//artem-2rd22.github.io/JS_S3_KT/static/media/404.efd4a7012bc2a554db87.png",
+    "static/media/map-image.png": "//artem-2rd22.github.io/JS_S3_KT/static/media/map-image.c4892a1b19bea31a6964.png",
+    "static/media/Discount.png": "//artem-2rd22.github.io/JS_S3_KT/static/media/Discount.478eafe9a04f1403e69e.png",
+    "index.html": "//artem-2rd22.github.io/JS_S3_KT/index.html",
+    "main.199edb1e.css.map": "//artem-2rd22.github.io/JS_S3_KT/static/css/main.199edb1e.css.map",
+    "main.1abf6a74.js.map": "//artem-2rd22.github.io/JS_S3_KT/static/js/main.1abf6a74.js.map",
+    "453.bba8395a.chunk.js.map": "//artem-2rd22.github.io/JS_S3_KT/static/js/453.bba8395a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.199edb1e.css",
+    "static/js/main.1abf6a74.js"
+  ]
+}
